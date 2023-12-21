@@ -30,6 +30,15 @@ body {
     margin: 0 1rem;
 }
 
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.navbar .icon-menu {
+    display: none;
+}
+
 .profile {
     height: 100vh;
     display: flex;
@@ -147,4 +156,29 @@ footer {
 footer a {
     color: #fff;
     margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar a:not(:only-child) {
+        display: none;
+    }
+
+    .navbar .icon-menu {
+        float: right;
+        display: block;
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #000;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
 }
