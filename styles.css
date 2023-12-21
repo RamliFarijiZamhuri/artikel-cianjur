@@ -1,0 +1,150 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 8px 8px 17px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+    color: #000;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.profile {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 7rem;
+}
+
+.profile h1 {
+    font-size: 2.7rem;
+}
+
+.profile img {
+    position: absolute;
+    top: 17rem;
+    box-shadow: 8px 8px 17px rgba(0, 0, 0, 0.3);
+}
+
+.about {
+    text-align: justify;
+    font-size: 20px;
+    margin: 32.3rem 39rem 10rem 10rem;
+}
+
+.about h1 {
+    position: absolute;
+    padding-top: 7rem;
+    font-size: 2.8rem;
+    top: 60rem;
+    left: 39rem;
+}
+
+.about img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 60%;
+    top: 200%;
+    box-shadow: 10px 8px 17px rgba(0, 0, 0, 0.3);
+}
+
+.product .title {
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 7rem 20rem;
+    padding-top: 7rem;
+}
+
+.product-items {
+    display: flex;
+    margin-left: 12rem;
+    margin-bottom: 10rem;
+}
+
+.product-items img {
+    border-radius: 0.75rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.product-items img:hover {
+    opacity: 0.7
+}
+
+.product-items .desc {
+    margin-left: 5rem;
+    margin-right: 12rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.product-items .desc h1 {
+    padding-bottom: 2rem;
+}
+
+.popup {
+    position: fixed;
+    bottom: 0;
+    right: -20px;
+}
+
+.popup img {
+    width: 56%;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.popup .req {
+    width: 9%;
+    height: 1.9rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 1.8rem 5rem;
+    border-radius: 15px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #424242;
+}
+
+footer {
+    width: 100%;
+    height: 3rem;
+    background-color: #424242;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding-top: 1rem;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    margin: 5px;
+}
