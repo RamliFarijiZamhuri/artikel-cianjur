@@ -191,4 +191,53 @@ footer a {
         display: block;
         text-align: left;
     }
+
+    .about {
+        font-size: 15px;
+        margin: 20px;
+        padding-top: 55rem;
+    }
+
+    .about h1 {
+        position: absolute;
+        padding-top: 5rem;
+        font-size: 2rem;
+        top: 60rem;
+        left: 50%;
+        align-items: center;
+
+    }
+
+    .about img {
+        left: 25%;
+        top: 190%;
+        box-shadow: 10px 8px 17px rgba(0, 0, 0, 0.3);
+    }
+
+    .product-items {
+        margin-left: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-items img {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 5rem;
+    }
+
+    .product .title {
+        font-size: 2rem;
+        text-align: center;
+        margin: 10rem 0rem;
+        padding-top: 7rem;
+    }
+
+    .product-items .desc {
+        margin-right: 5rem;
+        font-size: 10px;
+    }
+
+    .product-items .desc h1 {
+        padding-bottom: 9px;
+    }
 }
