@@ -192,6 +192,11 @@ footer a {
         text-align: left;
     }
 
+    .profile img {
+        width: 400px;
+        height: 250px;
+    }
+
     .about {
         font-size: 15px;
         margin: 20px;
@@ -209,19 +214,23 @@ footer a {
     }
 
     .about img {
-        left: 25%;
-        top: 190%;
+        width: 300px;
+        height: 240px;
+        position: relative;
         box-shadow: 10px 8px 17px rgba(0, 0, 0, 0.3);
     }
 
     .product-items {
-        margin-left: 8rem;
-        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5rem;
     }
 
     .product-items img {
-        width: 200px;
-        height: 100px;
+        width: 300px;
+        height: 150px;
         margin-bottom: 5rem;
     }
 
@@ -233,11 +242,15 @@ footer a {
     }
 
     .product-items .desc {
-        margin-right: 5rem;
+        margin-left: 0;
+        margin-right: 0;
         font-size: 10px;
     }
 
     .product-items .desc h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding-bottom: 9px;
     }
 }
