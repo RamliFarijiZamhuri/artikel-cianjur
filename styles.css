@@ -222,6 +222,8 @@ footer a {
 
     .about img {
         position: static;
+        width: 220px;
+        height: 190px;
         box-shadow: 10px 8px 17px rgba(0, 0, 0, 0.3);
     }
 
@@ -230,7 +232,7 @@ footer a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 5rem;
+        margin: 3rem;
     }
 
     .product-items img {
@@ -260,7 +262,7 @@ footer a {
     }
 
     .popup .req {
-        width: 12%;
+        width: 15%;
         font-size: 10px;
     }
 }
