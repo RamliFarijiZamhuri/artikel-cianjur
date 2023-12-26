@@ -23,10 +23,6 @@ body {
     box-shadow: 8px 8px 17px rgba(0, 0, 0, 0.3);
 }
 
-.navbar-nav {
-    display: flex;
-}
-
 .navbar a {
     color: #000;
     display: inline-block;
@@ -181,6 +177,10 @@ footer a {
         flex-direction: column;
     }
 
+    .dark-mode {
+        margin-left: 1rem;
+    }
+
     .icon-menu {
         float: right;
         display: block;
@@ -197,18 +197,13 @@ footer a {
         top: 0;
         width: 100%;
         margin-top: 74px;
+        background-color: #fff;
     }
 
     .navbar-nav.responsive a {
         float: none;
         display: block;
         text-align: left;
-    }
-
-    .dark-mode {
-        position: absolute;
-        top: -20%;
-        right: 19%;
     }
 
     .profile img {
