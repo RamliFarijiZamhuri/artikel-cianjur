@@ -39,6 +39,10 @@ body {
     color: white;
 }
 
+#moon {
+    display: hidden;
+}
+
 .icon-menu {
     display: none;
 }
@@ -145,6 +149,11 @@ body {
     color: #000;
     background-color: #fff;
     border: 1px solid #424242;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
 }
 
 footer {
