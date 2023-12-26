@@ -193,30 +193,35 @@ footer a {
     }
 
     .profile img {
-        width: 400px;
-        height: 250px;
+        width: 300px;
+        height: 200px;
     }
 
     .about {
         font-size: 15px;
         margin: 20px;
-        padding-top: 55rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .about h1 {
-        position: absolute;
-        padding-top: 5rem;
-        font-size: 2rem;
-        top: 60rem;
-        left: 50%;
-        align-items: center;
+        position: static;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 0;
+        margin: 2rem;
+    }
 
+    .about-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem;
     }
 
     .about img {
-        width: 300px;
-        height: 240px;
-        position: relative;
+        position: static;
         box-shadow: 10px 8px 17px rgba(0, 0, 0, 0.3);
     }
 
@@ -244,7 +249,7 @@ footer a {
     .product-items .desc {
         margin-left: 0;
         margin-right: 0;
-        font-size: 10px;
+        font-size: 1rem;
     }
 
     .product-items .desc h1 {
@@ -252,5 +257,10 @@ footer a {
         justify-content: center;
         align-items: center;
         padding-bottom: 9px;
+    }
+
+    .popup .req {
+        width: 12%;
+        font-size: 10px;
     }
 }
