@@ -10,10 +10,18 @@ function myFunction() {
 
 
 function dark() {
+  let body = document.body;
   let sun = document.getElementById("sun")
   let moon = document.getElementById("moon")
-  let body = document.body;
   body.classList.toggle("dark")
-  Text.style.color = "white"
-    moon.style.display = "inline"
+  
+  if (body.className !== "dark") {
+    sun.style.display = "none";
+    moon.style.display = "inline";
+  } else {
+    moon.style.display = "none";
+    sun.style.display = "inline"
+  }
 }
+
+
