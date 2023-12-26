@@ -39,6 +39,10 @@ body {
     color: white;
 }
 
+#sun {
+    display: none;
+}
+
 .icon-menu {
     display: none;
 }
@@ -148,7 +152,7 @@ body {
 }
 
 .dark {
-    background-color: #000;
+    background-color: #1d1d1d;
     color: #fff;
 }
 
@@ -206,6 +210,11 @@ footer a {
         text-align: left;
     }
 
+    .profile h1 {
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
     .profile img {
         width: 300px;
         height: 200px;
@@ -223,7 +232,8 @@ footer a {
         display: flex;
         justify-content: center;
         text-align: center;
-        padding-top: 0;
+        font-size: 2rem;
+        padding-top: 7rem;
         margin: 2rem;
     }
 
@@ -277,6 +287,13 @@ footer a {
 
     .popup .req {
         width: 15%;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .popup .req {
+        width: 25%;
         font-size: 10px;
     }
 }
