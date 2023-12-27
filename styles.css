@@ -171,6 +171,51 @@ footer a {
     margin: 5px;
 }
 
+@media (max-width: 1150px) {
+    .about {
+        font-size: 15px;
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about h1 {
+        position: static;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 7rem;
+        margin: 2rem;
+    }
+
+    .about p {
+        font-size: 1.5rem;
+    }
+
+    .about img {
+        position: static;
+        width: 320px;
+        height: 250px;
+        box-shadow: 10px 8px 17px rgba(0, 0, 0, 0.3);
+    }
+
+    .about-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem;
+    }
+
+    .product-items {
+        margin-left: 4rem;
+    }
+
+    .product-items .desc {
+        margin-right: 4rem;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar-nav a:not(:only-child) {
         display: none;
