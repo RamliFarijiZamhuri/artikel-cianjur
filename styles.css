@@ -76,15 +76,15 @@ body {
     padding-top: 7rem;
     font-size: 2.8rem;
     top: 60rem;
-    left: 39rem;
+    left: 44rem;
 }
 
 .about img {
     width: 400px;
     height: 400px;
     position: absolute;
-    left: 60%;
-    top: 200%;
+    left: 63%;
+    top: 168%;
     box-shadow: 10px 8px 17px rgba(0, 0, 0, 0.3);
 }
 
